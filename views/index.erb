@@ -9,7 +9,7 @@
 </form>
 <p> Add tasks to any list:</p>
 
-<<form action="/tasks" method="post">
+<form action="/tasks" method="post">
   <label for="list_id">Select a List</label>
 <select id='list_id' name='list_id' type='text'>
   <% @lists.each() do |list| %>
